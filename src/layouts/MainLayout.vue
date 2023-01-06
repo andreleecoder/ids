@@ -41,21 +41,21 @@ import EssentialLink from 'components/EssentialLink.vue';
 
 const linksList = [
   {
-    title: 'cores',
-    caption: 'desnvolvendo',
-    icon: 'school',
+    title: 'inicio',
+    caption: 'O que é um design system',
+    icon: 'home',
     link: 'https://quasar.dev',
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
+    title: 'cores',
+    caption: 'Paleta de Cores',
+    icon: 'palette',
     link: 'https://github.com/quasarframework',
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
+    title: 'Marca',
+    caption: 'Manual da marca',
+    icon: 'Menu Book',
     link: 'https://chat.quasar.dev',
   },
   {
