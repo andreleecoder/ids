@@ -19,7 +19,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header>Essential Links</q-item-label>
+        <q-item-label header>illimitar</q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -36,42 +36,14 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue';
-import EssentialLink from 'components/EssentialLink.vue';
 
-const linksList = [
-  {
-    title: 'inicio',
-    caption: 'O que é um design system',
-    icon: 'home',
-    link: 'https://quasar.dev',
-  },
-  {
-    title: 'cores',
-    caption: 'Paleta de Cores',
-    icon: 'palette',
-    link: 'https://github.com/quasarframework',
-  },
-  {
-    title: 'Marca',
-    caption: 'Manual da marca',
-    icon: 'menu_book',
-    link: 'https://chat.quasar.dev',
-  },
-];
+
 
 export default defineComponent({
-  name: 'MainLayout',
-
-  components: {
-    EssentialLink,
-  },
-
   setup() {
-    const leftDrawerOpen = ref(false);
+    const leftDrawerOpen = ref(ftrue);
 
     return {
-      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
