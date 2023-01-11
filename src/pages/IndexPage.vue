@@ -1,6 +1,6 @@
 <template>
   <q-page class="column flex-center">
-    <img alt="Quasar logo" src="~assets/logo-illimtar-horizontal-2023.png" />
+    <img alt="Quasar logo" src="~assets/logo-illimitar-vertical-2023.png" />
     <h6>illimitar Design system</h6>
     <div class="q-mt-xl">
       <q-btn
