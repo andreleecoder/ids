@@ -1,26 +1,7 @@
 <template>
   <q-page class="column flex-center">
-    <q-knob
-      v-model="count"
-      :min="min"
-      :max="max"
-      size="80px"
-      show-value
-      :thickness="0.13"
-      color="primary"
-      track-color="dark"
-    >
-      <q-avatar size="75px">
-        <img alt="Quasar logo" src="~assets/quasar-logo-inner.svg" />
-      </q-avatar>
-    </q-knob>
-
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 140px"
-    />
-
+    <img alt="Quasar logo" src="~assets/logo-illimtar-horizontal-2023.png" />
+    <h6>illimitar Design system</h6>
     <div class="q-mt-xl">
       <q-btn
         color="primary"
@@ -54,6 +35,6 @@ import { ref } from 'vue';
 
 const count = ref(0);
 
-const min = -5;
-const max = 5;
+const min = -10;
+const max = 10;
 </script>
