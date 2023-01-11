@@ -12,15 +12,11 @@
         />
 
         <q-toolbar-title>illimitar Design System </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header>illimitar</q-item-label>
-
         <EssentialLink
           v-for="link in essentialLinks"
           :key="link.title"
@@ -36,14 +32,43 @@
 </template>
 
 <script>
+import { defineComponent, ref } from 'vue';
+import EssentialLink from 'components/EssentialLink.vue';
 
+const linksList = [
+  {
+    title: 'Inicio',
+    caption: 'Design sistem',
+    icon: 'home',
+    link: 'inicio',
+  },
 
+  {
+    title: 'Cores',
+    caption: 'Paleta de cores',
+    icon: 'favorite',
+    link: 'cores',
+  },
+  {
+    title: 'Marca',
+    caption: 'Manual Marca',
+    icon: 'favorite',
+    link: 'marca',
+  },
+];
 
 export default defineComponent({
+  name: 'MainLayout',
+
+  components: {
+    EssentialLink,
+  },
+
   setup() {
-    const leftDrawerOpen = ref(ftrue);
+    const leftDrawerOpen = ref(false);
 
     return {
+      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
