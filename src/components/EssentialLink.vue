@@ -1,22 +1,41 @@
 <template>
-<q-list>
-<q-expansion-item
-        expand-separator
-        icon="list_alt"
-        label="Marca"
-        caption="Missão, visão valores"
-        default-opened
-      >
-  
-      </q-expansion-item>
-</q-list>
+  <q-item clickable tag="a" :href="link">
+    <q-item-section v-if="icon" avatar>
+      <q-icon :name="icon" />
+    </q-item-section>
 
-  
+    <q-item-section>
+      <q-item-label title>{{ title }}</q-item-label>
+      <q-item-label caption>{{ caption }}</q-item-label>
+    </q-item-section>
+  </q-item>
 </template>
 
 <script>
-const app = Vue.createApp({})
+import { defineComponent } from 'vue';
 
-app.use(Quasar, { config: {} })
-app.mount('#q-app')
+export default defineComponent({
+  name: 'EssentialLink',
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+
+    caption: {
+      type: String,
+      default: '',
+    },
+
+    link: {
+      type: String,
+      default: '#',
+    },
+
+    icon: {
+      type: String,
+      default: '',
+    },
+  },
+});
 </script>
