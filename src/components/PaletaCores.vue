@@ -2,7 +2,7 @@
   <q-card flat>
     <q-card flat class="row justify-between">
       <q-card-section class="col text-center text-subtitle2">
-        Cores
+        Cor
       </q-card-section>
       <q-card-section class="col text-center text-subtitle2 text-bold">
         variavel

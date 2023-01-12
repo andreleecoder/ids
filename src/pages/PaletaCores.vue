@@ -8,9 +8,9 @@
     </div>
     <q-card class="shadow-6">
       <PaletaCores
-        v-for="link in PaletaCores"
-        :key="link.title"
-        v-bind="link"
+        v-for="paleta in PaletaCores"
+        :key="paleta.title"
+        v-bind="paleta"
       />
     </q-card>
     <q-card style="width: 80%" class="shadow-6 justify-center collumn">
@@ -60,4 +60,28 @@
 </template>
 <script>
 import PaletaCores from 'components/PaletaCores.vue';
+const paletasList = [
+  {
+    cor: '#0060bf',
+    variavel: '$ipv-600',
+    hex: '#0060bf',
+    rgb: '210 100 75',
+  }
+  ]
+  export default defineComponent({
+  name: 'MainLayout',
+
+  components: {
+    PaletaCores,
+  },
+
+  setup() {
+
+
+    return {
+      PaletaCores: paletasList,
+     
+    };
+  },
+});
 </script>
