@@ -1,85 +1,33 @@
-<template>
-  <q-page class="column flex-center">
-    <h4 class="text-weight-bolder">Paletas de Cor</h4>
-    <div style="width: 80%" class="text-subtitle2 q-py-md">
+
+<template >
+  <q-page class="bg-light column items-center">
+
+    <div style="width: 80%; " class="justify-between row text-subtitle2 ">
+      <h4 class="text-weight-bolder">Paletas de Cor</h4>
+      <q-btn class="self-center" style="height:50px;" target="_blank"
+        href="https://www.figma.com/file/FHHT480KlTdFbVkSmfHTez/identidade-visual-illimitar?node-id=56%3A472&t=LKWTO5kUvvJp3pgk-1"
+        rounded color="primary" label="Acessar biblioteca no figma"></q-btn>
+    </div>
+    <div style="width: 80%" class="text-subtitle2 q-pb-md">
       <b>ipv</b> - illimitar | produto | venda : Aplicada em materiais, sistemas
       e recursos que estejam relacionados à marca da empresa e à gestão de
       produtos e vendas.
     </div>
-    <q-card class="shadow-6">
-      <PaletaCores
-        v-for="paleta in PaletaCores"
-        :key="paleta.title"
-        v-bind="paleta"
-      />
+    <!--paleta azul ipv-->
+    <q-card style="width: 80%" class="shadow-6">
+      <PaletaBlue />
     </q-card>
-    <q-card style="width: 80%" class="shadow-6 justify-center collumn">
-      <q-card flat class="row justify-between">
-        <q-card-section class="col text-center text-subtitle2">
-          Cor
-        </q-card-section>
-        <q-card-section class="col text-center text-subtitle2 text-bold">
-          variavel
-        </q-card-section>
-        <q-card-section class="col text-center text-subtitle2 text-bold">
-          HEX
-        </q-card-section>
-        <q-card-section class="col text-center text-subtitle2 text-bold">
-          RGB
-        </q-card-section>
-      </q-card>
-      <q-separator color="primary"></q-separator>
-      <q-card flat class="row justify-between">
-        <q-card-section class="col text-center bg-primary"> </q-card-section>
-        <q-card-section
-          class="col text-center text-subtitle2 text-weight-bolder text-primary"
-        >
-          $ipv
-        </q-card-section>
-        <q-card-section
-          class="col text-center text-subtitle2 text-weight-bolder text-primary"
-        >
-          #1379DF
-        </q-card-section>
-        <q-card-section
-          class="col text-center text-subtitle2 text-weight-bolder text-primary"
-        >
-          19 121 223
-        </q-card-section>
-      </q-card>
-      <q-separator color="primary"></q-separator>
-    </q-card>
-    <a
-      href="https://www.figma.com/file/FHHT480KlTdFbVkSmfHTez/identidade-visual-illimitar?node-id=56%3A472&t=oBp4dMjnW1fczxse-1"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img alt="paletas" src="~assets/paletas de cor.png" />
-    </a>
+    <!--paleta azul ipv-->
+
   </q-page>
 </template>
 <script>
-import PaletaCores from 'components/PaletaCores.vue';
-const paletasList = [
-  {
-    cor: '#0060bf',
-    variavel: '$ipv-600',
-    hex: '#0060bf',
-    rgb: '210 100 75',
-  }
-  ]
-  export default defineComponent({
-  name: 'MainLayout',
+import { defineComponent, ref } from 'vue';
+import PaletaBlue from 'src/components/PaletaIpvAzul.vue';
 
+export default defineComponent({
   components: {
-    PaletaCores,
-  },
-
-  setup() {
-    return {
-      PaletaCores: paletasList,
-     
-    };
-  },
+    PaletaBlue,
+  }
 });
 </script>
