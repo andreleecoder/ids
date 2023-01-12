@@ -66,7 +66,7 @@ export default defineComponent({
     rgb: {
       type: String,
       default: '',
-    },
+    }, 
   },
 });
 </script>
