@@ -49,7 +49,7 @@ export default defineComponent({
   name: 'PaletaCores',
   props: {
     cor: {
-      type: hex,
+      type: String,
       default: '',
     },
 
@@ -59,7 +59,7 @@ export default defineComponent({
     },
 
     hex: {
-      type: hex,
+      type: String,
       default: '',
     },
 

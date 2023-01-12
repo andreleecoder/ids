@@ -76,8 +76,6 @@ const paletasList = [
   },
 
   setup() {
-
-
     return {
       PaletaCores: paletasList,
      
