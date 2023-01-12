@@ -46,13 +46,13 @@ const linksList = [
   {
     title: 'Cores',
     caption: 'Paleta de cores',
-    icon: 'favorite',
+    icon: 'palette',
     link: 'cores',
   },
   {
     title: 'Marca',
     caption: 'Manual Marca',
-    icon: 'favorite',
+    icon: 'diamond',
     link: 'marca',
   },
 ];
