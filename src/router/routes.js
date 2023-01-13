@@ -3,9 +3,9 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: 'inicio', component: () => import('pages/IndexPage.vue') },
-      { path: 'cores', component: () => import('pages/PaletaCores.vue') },
-      { path: 'marca', component: () => import('pages/ManualMarca.vue') },
+      { path: 'inicio', component: () => import('src/pages/inicio/IndexPage.vue') },
+      { path: 'cores', component: () => import('src/pages/cores/PaletaCores.vue') },
+      { path: 'marca', component: () => import('src/pages/marca/ManualMarca.vue') },
     ],
   },
 
@@ -13,7 +13,7 @@ const routes = [
   // but you can also remove it
   {
     path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue'),
+    component: () => import('src/pages/erro/ErrorNotFound.vue'),
   },
 ];
 
