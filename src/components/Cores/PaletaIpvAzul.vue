@@ -1,36 +1,38 @@
 <script setup>
 import { ref } from "vue"
-let props = ref(
-  {
-    //valores das informações
-    nome: {
-      type: String,
-      valor: '$ipv',
-    },
-    hex: {
-      type: String,
-      valor: '#1379DF',
-    },
-    rgb: {
-      type: String,
-      valor: '9 121 223',
-    },
-    //valor do estilo
-    corBG: {
-      type: String,
-      valor: 'primary',
-    },
-    corText: {
-      type: String,
-      valor: 'primary',
-    },
-    separator: {
-      type: String,
-      valor: 'primary',
-    },
-  }
 
-);
+const props = defineProps(
+  ref(
+    {
+      //valores das informações
+      nome: {
+        type: String,
+        required: true,
+      },
+      hex: {
+        type: String,
+        valor: '',
+      },
+      rgb: {
+        type: String,
+        valor: '',
+      },
+      //valor do estilo
+      corBG: {
+        type: String,
+        valor: '',
+      },
+      corText: {
+        type: String,
+        valor: '',
+      },
+      separator: {
+        type: String,
+        valor: '',
+      },
+    }
+  )
+)
 
 
 </script>

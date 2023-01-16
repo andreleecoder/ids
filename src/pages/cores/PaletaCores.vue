@@ -2,7 +2,7 @@
 <script setup>
 import PaletaBlue from 'src/components/Cores/PaletaIpvAzul.vue';
 
-const paletaAzulList = [
+const paletaAzulLista = [
 
   {
     nome: '$ipv',
@@ -13,6 +13,7 @@ const paletaAzulList = [
     separator: 'primary',
   }
 ];
+
 </script>
 <template >
   <q-page class="q-px-lg bg-light column items-center">
@@ -30,7 +31,7 @@ const paletaAzulList = [
     </div>
     <!--paleta azul ipv-->
     <q-card class=" full-width shadow-6">
-      <PaletaBlue v-for="list in paletaAzulList" :key="list.props.nome.valor" v-bind="list" />
+      <PaletaBlue v-for="lista in paletaAzulLista" :key="lista.nome" v-bind="lista" :nome="lista.nome" />
     </q-card>
     <!--paleta azul ipv-->
 
