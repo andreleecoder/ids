@@ -1,38 +1,38 @@
 <script setup>
-import { ref } from "vue"
+import { refs } from "vue"
 
-const props = defineProps(
-  ref(
-    {
-      //valores das informações
-      nome: {
-        type: String,
-        required: true,
-      },
-      hex: {
-        type: String,
-        valor: '',
-      },
-      rgb: {
-        type: String,
-        valor: '',
-      },
-      //valor do estilo
-      corBG: {
-        type: String,
-        valor: '',
-      },
-      corText: {
-        type: String,
-        valor: '',
-      },
-      separator: {
-        type: String,
-        valor: '',
-      },
-    }
-  )
+const props = refs(
+
+  {
+    //valores das informações
+    nome: {
+      type: String,
+      required: true,
+    },
+    hex: {
+      type: String,
+      valor: '',
+    },
+    rgb: {
+      type: String,
+      valor: '',
+    },
+    //valor do estilo
+    corBG: {
+      type: String,
+      valor: '',
+    },
+    corText: {
+      type: String,
+      valor: '',
+    },
+    separator: {
+      type: String,
+      valor: '',
+    },
+  }
 )
+
 
 
 </script>
@@ -63,7 +63,7 @@ const props = defineProps(
 
       </q-card-section>
       <q-card-section :class="`text-${props.corText.valor}`" class="col text-center text-subtitle2 text-weight-bolder ">
-        {{ props.nome.valor }}
+        {{ props.nome.required }}
       </q-card-section>
       <q-card-section :class="`text-${props.corText.valor}`" class="col text-center text-subtitle2 text-weight-bolder ">
         {{ props.hex.valor }}
