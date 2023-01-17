@@ -1,9 +1,9 @@
 
-<script setup>
+<script>
+
+import { defineComponent } from 'vue';
 import PaletaBlue from 'src/components/Cores/PaletaIpvAzul.vue';
-
 const paletaAzulLista = [
-
   {
     nome: '$ipv',
     hex: '#1379DF',
@@ -11,8 +11,36 @@ const paletaAzulLista = [
     corBg: 'primary',
     corText: 'primary',
     separator: 'primary',
-  }
+  },
+  {
+    nome: '$ipv-400',
+    hex: '#1379DF',
+    rgb: '9 121 223',
+    corBg: 'ipv-800',
+    corText: 'dark',
+    separator: 'dark',
+  },
 ];
+
+export default defineComponent({
+  // name: 'paletaCores',
+
+  components: {
+    PaletaBlue,
+  },
+
+  setup() {
+
+
+    return {
+      paletaAzul: paletaAzulLista,
+
+
+    };
+  },
+});
+
+
 
 </script>
 <template >
@@ -31,10 +59,31 @@ const paletaAzulLista = [
     </div>
     <!--paleta azul ipv-->
     <q-card class=" full-width shadow-6">
-      <PaletaBlue v-for="lista in paletaAzulLista" :key="lista.nome" v-bind="lista" :nome="lista.nome" />
+      <!--header inicio-->
+      <q-card flat class="row justify-between">
+        <q-card-section class="col text-center text-subtitle2">
+          Cor
+        </q-card-section>
+        <q-card-section class="col text-center text-subtitle2 text-bold">
+          variavel
+        </q-card-section>
+        <q-card-section class="col text-center text-subtitle2 text-bold">
+          HEX
+        </q-card-section>
+        <q-card-section class="col text-center text-subtitle2 text-bold">
+          RGB
+        </q-card-section>
+      </q-card>
+      <!--header fim-->
+      <PaletaBlue v-for="lista in paletaAzul" :key="lista.nome" v-bind="lista" />
     </q-card>
     <!--paleta azul ipv-->
 
   </q-page>
 </template>
 
+<style href="app.vue" lang="sass">
+@import './css/quasar.variables.scss';
+
+
+</style>
