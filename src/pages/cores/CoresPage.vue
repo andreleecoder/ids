@@ -1,9 +1,9 @@
 
 
 <template >
-  <q-page class="ipv-100bg  q-px-lg bg-light column items-center">
+  <q-page class="q-px-lg column flex-center">
 
-    <div class=" full-width justify-between row text-subtitle2 ">
+    <div class=" full-width justify-between row">
       <h4 class="text-weight-bolder">Paletas de Cor</h4>
       <q-btn class="self-center" style="height:50px;" target="_blank"
         href="https://www.figma.com/file/FHHT480KlTdFbVkSmfHTez/identidade-visual-illimitar?node-id=56%3A472&t=LKWTO5kUvvJp3pgk-1"
@@ -116,7 +116,7 @@
 
 import { defineComponent } from 'vue';
 import PaletaCores from 'src/components/Cores/PaletaCores.vue';
-
+//dados das paletas de cor
 const paletaAzulLista = [
   {
     nome: '$ipv',
