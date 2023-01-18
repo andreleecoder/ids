@@ -1,7 +1,7 @@
 
 
 <template >
-  <q-page class="q-px-lg column flex-center">
+  <q-page class="q-pa-lg column flex-center">
 
     <div class=" full-width justify-between row">
       <h4 class="text-weight-bolder">Paletas de Cor</h4>

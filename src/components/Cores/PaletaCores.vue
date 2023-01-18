@@ -41,7 +41,6 @@ export default defineComponent({
 
 <template>
   <q-card flat>
-
     <q-separator :class="`${separator}`"></q-separator>
     <!--ipv inicio-->
     <q-card flat class="row justify-between">
@@ -58,7 +57,5 @@ export default defineComponent({
       </q-card-section>
     </q-card>
     <!--ipv fim-->
-    <q-separator :class="`${separator}`"></q-separator>
-
   </q-card>
 </template>

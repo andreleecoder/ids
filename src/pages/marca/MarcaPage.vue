@@ -91,7 +91,7 @@
           <q-card-section class="col text-center text-subtitle2 ">
             HEX
           </q-card-section>
-          <q-card-section class="col text-center text-subtitle2 ">
+          <q-card-section class="col-4 text-center text-subtitle2 ">
             CSS
           </q-card-section>
         </q-card>
@@ -110,7 +110,7 @@
             <p>19 121 223</p>
             <p>210 64 100</p>
           </q-card-section>
-          <q-card-section class="col text-center text-subtitle2 text-bold">
+          <q-card-section class="col-4  text-subtitle2 text-bold">
             <p>background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
@@ -128,7 +128,7 @@
             <p>19 121 223</p>
             <p>210 64 100</p>
           </q-card-section>
-          <q-card-section class="col text-center text-subtitle2 text-bold">
+          <q-card-section class="col-4 text-subtitle2 text-bold">
             <p>background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
