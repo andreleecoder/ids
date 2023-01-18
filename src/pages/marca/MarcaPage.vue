@@ -111,13 +111,13 @@
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
-            background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);
+            <p>background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
         <q-card flat class="row justify-between">
           <q-card-section class="col text-center text-subtitle2">
 
-            <img class="col-1" alt="logo vertical" src="src/assets/logo-curva-peq.png" />
+            <img class="full-width" alt="logo vertical" src="src/assets/logo-curva-peq.png" />
 
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
@@ -129,7 +129,7 @@
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
-            background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);
+            <p>background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
       </q-card>
