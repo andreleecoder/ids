@@ -1,8 +1,95 @@
-// app global css in SCSS form
-$ipv:#1379DF;
-$ipv-100:#F5F9FF;
-$ipv-200:#C9E4FF;
-$ipv-400:#5CADFF;
-$ipv-600:#0060BF;
-$ipv-800:#0F5499;
-$ipv-900:#121314;
+//Paleta de cores utilizadas no componente PaletaCores localizada na pagina CoresPage
+//IPV Paleta Azul - llimitar | produto | venda : Aplicada em materiais, sistemas e recursos que estejam relacionados à marca da empresa e à gestão de produtos e vendas. 
+    //ipv   
+    .ipvbg{background:#1379DF;}
+    .ipvtx{color:#1379DF;}
+    //ipv100
+    .ipv-100bg{background:#F5F9FF;}
+    .ipv-100tx{color:#F5F9FF;}
+    //ipv200
+    .ipv-200bg{background:#C9E4FF;}
+    .ipv-200tx{color:#C9E4FF;}
+    //ipv400
+    .ipv-400bg{background:#5CADFF;}
+    .ipv-400tx{color:#5CADFF;}
+    //ipv600
+    .ipv-600bg{background:#0060BF;}
+    .ipv-600tx{color:#0060BF;}
+    //ipv-800
+    .ipv-800bg{background:#0F5499;}
+    .ipv-800tx{color:#0F5499;}
+     //ipv-900
+     .ipv-900bg{background:#121314;}
+     .ipv-900tx{color:#121314;}
+    
+    //EST paleta laranja - Estoque: Aplicada em materiais, sistemas e recursos que estejam relacionados à gestão de estoque 
+    //est   
+     .estbg{background:#F59019;}
+     .esttx{color:#F59019;}
+    //est100
+     .est-100bg{background:#FFFAF5;}
+     .est-100tx{color:#FFFAF5;}
+    //est200
+     .est-200bg{background:#FFE6C9;}
+     .est-200tx{color:#FFE6C9;}
+    //est400
+     .est-400bg{background:#F5AC19;}
+     .est-400tx{color:#F5AC19;}
+    //est600
+     .est-600bg{background:#F57B00;}
+     .est-600tx{color:#F57B00;}
+    //est-800
+     .est-800bg{background:#D86801;}
+     .est-800tx{color:#D86801;}
+    //est-900
+     .est-900bg{background:#141312;}
+     .est-900tx{color:#141312;}
+    
+    
+    //fin verde teal - Financeiro: Aplicada em materiais, sistemas e recursos que estejam relacionados à gestão financeira
+   //fin   
+    .finbg{background:#12B27D;}
+    .fintx{color:#12B27D;}
+   //fin100
+    .fin-100bg{background:#F5FFFC;}
+    .fin-100tx{color:#F5FFFC;}
+   //fin200
+    .fin-200bg{background:#CCFFEE;}
+    .fin-200tx{color:#CCFFEE;}
+   //fin400
+    .fin-400bg{background:#00F0A0;}
+    .fin-400tx{color:#00F0A0;}
+   //fin600
+    .fin-600bg{background:#00B295;}
+    .fin-600tx{color:#00B295;}
+   //fin-800
+    .fin-800bg{background:#007850;}
+    .fin-800tx{color:#007850;}
+   //fin-900
+    .fin-900bg{background:#121413;}
+    .fin-900tx{color:#121413;}
+   
+    
+    // shc - verde - Software house | Consultoria: Aplicada em materiais que estejam relacionados aos serviços da software house e de consultoria 
+    //shc   
+     .shcbg{background:#42C920;}
+     .shctx{color:#42C920;}
+    //shc100
+     .shc-100bg{background:#F7FFF5;}
+     .shc-100tx{color:#F7FFF5;}
+    //shc200
+     .shc-200bg{background:#B8FFCA;}
+     .shc-200tx{color:#B8FFCA;}
+    //shc400
+     .shc-400bg{background:#00FF41;}
+     .shc-400tx{color:#00FF41;}
+    //shc600
+     .shc-600bg{background:#008F11;}
+     .shc-600tx{color:#008F11;}
+    //shc-800
+     .shc-800bg{background:#006600;}
+     .shc-800tx{color:#006600;}
+    //shc-900
+     .shc-900bg{background:#121412;}
+     .shc-900tx{color:#121412;}
+   

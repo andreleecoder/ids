@@ -3,8 +3,9 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
+      { path: '', component: () => import('src/pages/inicio/IndexPage.vue') },
       { path: 'inicio', component: () => import('src/pages/inicio/IndexPage.vue') },
-      { path: 'cores', component: () => import('src/pages/cores/PaletaCores.vue') },
+      { path: 'cores', component: () => import('src/pages/cores/CoresPage.vue') },
       { path: 'marca', component: () => import('src/pages/marca/ManualMarca.vue') },
     ],
   },
