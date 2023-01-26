@@ -111,7 +111,7 @@
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col-4  text-subtitle2 text-bold">
-            <p>background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
+            <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
         <q-card flat class="row justify-between">
@@ -129,7 +129,7 @@
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col-4 text-subtitle2 text-bold">
-            <p>background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
+            <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
       </q-card>

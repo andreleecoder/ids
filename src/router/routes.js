@@ -4,14 +4,39 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('src/pages/inicio/IndexPage.vue') },
-      { path: 'inicio', component: () => import('src/pages/inicio/IndexPage.vue') },
-      { path: 'cores', component: () => import('src/pages/cores/CoresPage.vue') },
-      { path: 'marca', component: () => import('src/pages/marca/MarcaPage.vue') },
+  
     ],
   },
+  {
+    path: '/inicio',
+    name:'Inicio',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
 
-  // Always leave this as last one,
-  // but you can also remove it
+      { path: '/inicio', component: () => import('src/pages/inicio/IndexPage.vue') },
+
+    ],
+  },
+  {
+    path: '/cores',
+    name:'Cores',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+    
+      { path: '/cores', component: () => import('src/pages/cores/CoresPage.vue') },
+
+    ],
+  },
+  {
+    path: '/marca',
+    name:'Marca',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      
+      { path: '/marca', component: () => import('src/pages/marca/MarcaPage.vue') },
+    ],
+  },
+  
   {
     path: '/:catchAll(.*)*',
     component: () => import('src/pages/erro/ErrorNotFound.vue'),

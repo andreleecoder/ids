@@ -1,5 +1,6 @@
 <script setup>
 
+
 </script>
 <template>
   <q-page class="column q-px-lg q-my-lg flex-center">
@@ -18,6 +19,7 @@
         permitindo que as pessoas foquem seus esforços em soluções mais estratégicas.
       </p>
       <h5 class="q-mb-none">Vantagens ao adotar um design system</h5>
+
     </div>
     <!--cards vantagens-->
     <!--Consistencia-->
