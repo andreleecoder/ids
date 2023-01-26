@@ -1,39 +1,37 @@
 
-<script >
-import { defineComponent } from 'vue';
+<script setup >
+import { defineProps } from 'vue';
 
-export default defineComponent({
-  nome: 'PaletaCores',
-  props: (
-    {
-      //valores das informações
-      nome: {
-        type: String,
-        valor: '',
-      },
-      hex: {
-        type: String,
-        valor: '',
-      },
-      rgb: {
-        type: String,
-        valor: '',
-      },
-      corBg: {
-        type: String,
-        valor: '',
-      },
-      corText: {
-        type: String,
-        valor: '',
-      },
-      separator: {
-        type: String,
-        valor: '',
-      }
+defineProps(
+  {
+    //valores das informações
+    nome: {
+      type: String,
+      valor: '',
+    },
+    hex: {
+      type: String,
+      valor: '',
+    },
+    rgb: {
+      type: String,
+      valor: '',
+    },
+    corBg: {
+      type: String,
+      valor: '',
+    },
+    corText: {
+      type: String,
+      valor: '',
+    },
+    separator: {
+      type: String,
+      valor: '',
     }
-  )
-});
+  }
+)
+
 
 
 </script>
