@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 import PaletaCores from 'src/components/Cores/PaletaCores.vue';
 //dados das paletas de cor
-const paletaAzulLista = ref([
+let paletaAzulLista = ref([
   {
     nome: '$ipv',
     hex: '#1379DF',
@@ -62,7 +62,7 @@ const paletaAzulLista = ref([
     separator: 'ipv-900bg',
   },
 ]);
-const paletaLaranjaLista = ref([
+let paletaLaranjaLista = ref([
   {
     nome: '$est',
     hex: '#F59019',
@@ -121,7 +121,7 @@ const paletaLaranjaLista = ref([
     separator: 'est-900bg',
   },
 ]);
-const paletaVerdeFinLista = ref([
+let paletaVerdeFinLista = ref([
   {
     nome: '$fin',
     hex: '#12B27D',
@@ -180,7 +180,7 @@ const paletaVerdeFinLista = ref([
     separator: 'fin-900bg',
   },
 ]);
-const paletaVerdeShcLista = ref([
+let paletaVerdeShcLista = ref([
   {
     nome: '$shc',
     hex: '#42C920',

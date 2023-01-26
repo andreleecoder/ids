@@ -1,7 +1,7 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('src/layouts/LayoutPrincipal.vue'),
     children: [
       { path: '', component: () => import('src/pages/inicio/IndexPage.vue') },
   
@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/inicio',
     name:'Inicio',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('src/layouts/LayoutPrincipal.vue'),
     children: [
 
       { path: '/inicio', component: () => import('src/pages/inicio/IndexPage.vue') },
@@ -20,7 +20,7 @@ const routes = [
   {
     path: '/cores',
     name:'Cores',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('src/layouts/LayoutPrincipal.vue'),
     children: [
     
       { path: '/cores', component: () => import('src/pages/cores/CoresPage.vue') },
@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/marca',
     name:'Marca',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('src/layouts/LayoutPrincipal.vue'),
     children: [
       
       { path: '/marca', component: () => import('src/pages/marca/MarcaPage.vue') },
