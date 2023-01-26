@@ -10,7 +10,10 @@
 
     <q-drawer v-model="drawerLeft">
       <q-list>
-        <LinksNavegacao v-for="link in rotas" :key="link.title" v-bind="link" />
+        <LinksNavegacao v-for="link in rotaInicio" :key="link.title" v-bind="link" />
+        <q-expansion-item header-class="text-primary" v-model="expanded" icon="style" label="Estilo">
+          <LinksNavegacao v-for="link in rotasEstilo" :key="link.title" v-bind="link" />
+        </q-expansion-item>
       </q-list>
     </q-drawer>
 
@@ -24,14 +27,15 @@
 import { ref } from 'vue'
 import LinksNavegacao from 'src/components/Layout/LinksNavegacao.vue';
 
-let listaRotas = ref([
+let listaRotaInicio = ref([
   {
     title: 'Inicio',
     caption: 'Design sistem',
     icon: 'home',
     link: 'inicio',
-  },
-
+  }
+])
+let listaRotasEstilo = ref([
   {
     title: 'Cores',
     caption: 'Paleta de cores',
@@ -49,7 +53,9 @@ let listaRotas = ref([
 
 
 
-let rotas = listaRotas
+let rotaInicio = listaRotaInicio
+let rotasEstilo = listaRotasEstilo
 
 let drawerLeft = ref(false)
+let expanded = ref(true)
 </script>
