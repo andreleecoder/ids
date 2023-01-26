@@ -256,7 +256,7 @@ let paletaVerdeShc = paletaVerdeShcLista
 <template >
   <q-page class="q-pa-lg column flex-center">
 
-    <div class=" full-width justify-between row">
+    <div class=" q-pb-md full-width justify-between row">
       <h4 class="text-weight-bolder">Paletas de Cor</h4>
       <q-btn class="self-center" style="height:50px;" target="_blank"
         href="https://www.figma.com/file/FHHT480KlTdFbVkSmfHTez/identidade-visual-illimitar?node-id=56%3A472&t=LKWTO5kUvvJp3pgk-1"
