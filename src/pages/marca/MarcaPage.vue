@@ -41,7 +41,7 @@ let paletaAzul = paletaAzulLista
           <img class="full-width" alt="logo vertical" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-illimitar-vertical-2023.png" />
         </div>
         <div class="col">
-          <img class="full-width " alt="logo horizontal" src="src/assets/logo-illimtar-horizontal-2023.png" />
+          <img class="full-width " alt="logo horizontal" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-illimtar-horizontal-2023.png" />
         </div>
       </div>
     </div>
