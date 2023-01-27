@@ -37,7 +37,7 @@ let cards = listaCardVantagens
       <p class="i-subtitle1">
         O Design System fornece recursos e
         guias para construir interfaces consistentes,
-        acessíveis, e com foco em oferecer uma ótima experiência aos nossos usuários.
+        acessíveis e com foco em oferecer uma ótima experiência aos nossos usuários.
       </p>
       <p class="i-subtitle1">
         Ele facilita decisões de design, colabora para o
