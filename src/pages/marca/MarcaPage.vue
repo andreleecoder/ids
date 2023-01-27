@@ -1,5 +1,32 @@
+<script setup>
+
+import { ref } from 'vue';
+import PaletaCores from 'src/components/Cores/PaletaCores.vue';
+//dados das paletas de cor
+const paletaAzulLista = ref([
+  {
+    nome: '$ipv',
+    hex: '#1379DF',
+    rgb: '9 121 223',
+    corBg: 'ipvbg',
+    corText: 'dark',
+    separator: 'ipv-900bg',
+  },
+  {
+    nome: '$ipv-400',
+    hex: '#5CADFF',
+    rgb: '210 64 100',
+    corBg: 'ipv-400bg',
+    corText: 'dark',
+    separator: 'ipv-900bg',
+  },
+
+])
+let paletaAzul = paletaAzulLista
+
+</script>
 <template>
-  <q-page class="q-pb-lg q-px-lg column flex-start">
+  <q-page class="fundo-paginas q-pb-lg q-px-lg column flex-start">
     <div class=" q-pb-sm full-width justify-between row ">
       <h4 class="text-weight-bolder">Manual da Marca</h4>
       <q-btn class="self-center" style="height:50px;" target="_blank"
@@ -8,7 +35,7 @@
     </div>
     <!--logo-->
     <div class=" full-width justify-between column ">
-      <h5 class="q-mb-xs text-weight-bolder">Logo</h5>
+      <h5 class=" i-h5 q-mb-xs text-weight-bolder">Logo</h5>
       <div class="row items-center q-px-lg">
         <div class="col-5">
           <img class="full-width" alt="logo vertical" src="src/assets/logo-illimitar-vertical-2023.png" />
@@ -20,7 +47,7 @@
     </div>
     <!--tipografia-->
     <div class=" full-width justify-between column ">
-      <h5 class=" q-mb-xs  text-weight-bolder">Tipografia</h5>
+      <h5 class=" i-h5 q-mb-xs  text-weight-bolder">Tipografia</h5>
 
       <q-card class=" full-width shadow-6">
         <!--header inicio-->
@@ -54,7 +81,7 @@
     </div>
     <!--cores-->
     <div class=" full-width justify-between column ">
-      <h5 class=" q-mb-xs  text-weight-bolder">Cores</h5>
+      <h5 class=" i-h5 q-mb-xs  text-weight-bolder">Cores</h5>
 
       <q-card class=" full-width shadow-6">
         <!--header inicio-->
@@ -78,7 +105,7 @@
     </div>
     <!--tGradientes Logo-->
     <div class=" full-width justify-between column ">
-      <h5 class="q-mb-xs text-weight-bolder">Gradientes Logo</h5>
+      <h5 class=" i-h5 q-mb-xs text-weight-bolder">Gradientes Logo</h5>
       <q-card class="full-width shadow-6">
         <!--header inicio-->
         <q-card flat class="row justify-between">
@@ -110,7 +137,7 @@
             <p>19 121 223</p>
             <p>210 64 100</p>
           </q-card-section>
-          <q-card-section class="col-4  text-subtitle2 text-bold">
+          <q-card-section class="col-4  i-subtitle2 text-bold">
             <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
@@ -128,7 +155,7 @@
             <p>19 121 223</p>
             <p>210 64 100</p>
           </q-card-section>
-          <q-card-section class="col-4 text-subtitle2 text-bold">
+          <q-card-section class="col-4 i-subtitle2 text-bold">
             <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
@@ -136,49 +163,4 @@
     </div>
   </q-page>
 </template>
-<script>
 
-import { defineComponent } from 'vue';
-import PaletaCores from 'src/components/Cores/PaletaCores.vue';
-//dados das paletas de cor
-const paletaAzulLista = [
-  {
-    nome: '$ipv',
-    hex: '#1379DF',
-    rgb: '9 121 223',
-    corBg: 'ipvbg',
-    corText: 'dark',
-    separator: 'ipv-900bg',
-  },
-  {
-    nome: '$ipv-400',
-    hex: '#5CADFF',
-    rgb: '210 64 100',
-    corBg: 'ipv-400bg',
-    corText: 'dark',
-    separator: 'ipv-900bg',
-  },
-
-];
-
-
-export default defineComponent({
-  // name: 'paletaCores',
-
-  components: {
-    PaletaCores,
-  },
-
-  setup() {
-
-
-    return {
-      paletaAzul: paletaAzulLista,
-
-    };
-  },
-});
-
-
-
-</script>

@@ -29,22 +29,22 @@ let cards = listaCardVantagens
 
 </script>
 <template>
-  <q-page class="column q-px-lg q-my-lg flex-center">
+  <q-page class="fundo-paginas column q-px-lg q-py-lg flex-center">
     <img alt="Quasar logo" src="~assets/logo-illimitar-vertical-2023.png" style="width: 300px" />
-    <h4 class="q-mb-none">illimitar Design system</h4>
+    <h4 class="i-h4 q-mb-none">illimitar Design system</h4>
     <div class="column q-px-lg q-my-lg ">
 
-      <p class="text-subtitle1">
+      <p class="i-subtitle1">
         O Design System fornece recursos e
         guias para construir interfaces Linx Impulse consistentes,
         acessíveis, e com foco em oferecer uma ótima experiência aos nossos usuários.
       </p>
-      <p class="text-subtitle1">
+      <p class="i-subtitle1">
         Ele facilita decisões de design, colabora para o
         alinhamento dos times de produto e acelera o desenvolvimento,
         permitindo que as pessoas foquem seus esforços em soluções mais estratégicas.
       </p>
-      <h5 class="q-mb-none">Vantagens ao adotar um design system</h5>
+      <h5 class=" i-h5 q-mb-none">Vantagens ao adotar um design system</h5>
 
     </div>
     <!--cards vantagens-->

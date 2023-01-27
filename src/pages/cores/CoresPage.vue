@@ -254,17 +254,17 @@ let paletaVerdeShc = paletaVerdeShcLista
 </script>
 
 <template >
-  <q-page class="q-pa-lg column flex-center">
+  <q-page class=" fundo-paginas q-pa-lg column flex-center">
 
     <div class=" q-pb-md full-width justify-between row">
-      <h4 class="text-weight-bolder">Paletas de Cor</h4>
+      <h4 class=" i-h4 text-weight-bolder">Paletas de Cor</h4>
       <q-btn class="self-center" style="height:50px;" target="_blank"
         href="https://www.figma.com/file/FHHT480KlTdFbVkSmfHTez/identidade-visual-illimitar?node-id=56%3A472&t=LKWTO5kUvvJp3pgk-1"
         rounded color="primary" label="Acessar biblioteca no figma"></q-btn>
     </div>
     <!--paleta azul ipv inicio-->
-    <div class=" full-width text-subtitle2 q-pb-md">
-      <b>ipv</b> - illimitar | produto | venda : Aplicada em materiais, sistemas
+    <div class=" full-width i-subtitle2 q-pb-md">
+      ipv - illimitar | produto | venda : Aplicada em materiais, sistemas
       e recursos que estejam relacionados à marca da empresa e à gestão de
       produtos e vendas.
     </div>
@@ -289,8 +289,8 @@ let paletaVerdeShc = paletaVerdeShcLista
     </q-card>
     <!--paleta azul ipv fim-->
     <!--paleta laranja est inicio-->
-    <div class=" q-pt-lg full-width text-subtitle2 q-pb-md">
-      <b>est</b> - Estoque: Aplicada em materiais, sistemas e recursos
+    <div class=" q-pt-lg full-width i-subtitle2 q-pb-md">
+      est - Estoque: Aplicada em materiais, sistemas e recursos
       que estejam relacionados à gestão de estoque
     </div>
     <q-card class=" full-width shadow-6">
@@ -314,8 +314,8 @@ let paletaVerdeShc = paletaVerdeShcLista
     </q-card>
     <!--paleta laranja est fim-->
     <!--paleta verde fin inicio-->
-    <div class=" q-pt-lg full-width text-subtitle2 q-pb-md">
-      <b>fin</b> - Financeiro: Aplicada em materiais,
+    <div class=" q-pt-lg full-width i-subtitle2 q-pb-md">
+      fin - Financeiro: Aplicada em materiais,
       sistemas e recursos que estejam relacionados à gestão financeira
     </div>
     <q-card class=" full-width shadow-6">
@@ -339,8 +339,8 @@ let paletaVerdeShc = paletaVerdeShcLista
     </q-card>
     <!--paleta verde fin fim-->
     <!--paleta verde shc inicio-->
-    <div class=" q-pt-lg full-width text-subtitle2 q-pb-md">
-      <b>shc</b> - Software house | Consultoria: Aplicada em materiais
+    <div class=" q-pt-lg full-width i-subtitle2 q-pb-md">
+      shc- Software house | Consultoria: Aplicada em materiais
       que estejam relacionados aos serviços da software house e de consultoria
     </div>
     <q-card class=" full-width shadow-6">

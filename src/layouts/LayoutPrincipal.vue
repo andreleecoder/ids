@@ -9,6 +9,9 @@
     </q-header>
 
     <q-drawer v-model="drawerLeft">
+      <div class="col bg-primary q-py-sm">
+        <q-img fit height="34px " class="full-width" alt="logo vertical" src="src/assets/logo-ids-branco.svg" />
+      </div>
       <q-list>
         <LinksNavegacao v-for="link in rotaInicio" :key="link.title" v-bind="link" />
         <q-expansion-item header-class="text-primary" v-model="expanded" icon="style" label="Estilo">
@@ -56,6 +59,7 @@ let listaRotasEstilo = ref([
 let rotaInicio = listaRotaInicio
 let rotasEstilo = listaRotasEstilo
 
+//componente drawer
 let drawerLeft = ref(false)
 let expanded = ref(true)
 </script>
