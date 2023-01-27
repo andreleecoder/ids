@@ -126,7 +126,7 @@ let paletaAzul = paletaAzulLista
         <q-card flat class="row justify-between">
           <q-card-section class="col text-center text-subtitle2">
 
-            <img class="full-width" alt="logo vertical" src="src/assets/logo-curva-grande.png" />
+            <img class="full-width" alt="logo vertical" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-curva-grande.png" />
 
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
@@ -144,7 +144,7 @@ let paletaAzul = paletaAzulLista
         <q-card flat class="row justify-between">
           <q-card-section class="col text-center text-subtitle2">
 
-            <img class="full-width" alt="logo vertical" src="src/assets/logo-curva-peq.png" />
+            <img class="full-width" alt="logo vertical" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-curva-peq.png" />
 
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
