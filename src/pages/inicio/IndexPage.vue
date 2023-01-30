@@ -30,7 +30,7 @@ let cards = listaCardVantagens
 </script>
 <template>
   <q-page class="fundo-paginas column q-px-lg q-py-lg flex-center">
-    <img alt="Quasar logo" src="~assets/logo-illimitar-vertical-2023.png" style="width: 300px" />
+    <img alt="Quasar logo" src="/src/assets/logo-illimitar-vertical-2023.png" />
     <h4 class="i-h4 q-mb-none">illimitar Design system</h4>
     <div class="column q-px-lg q-my-lg ">
 

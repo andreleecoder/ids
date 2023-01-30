@@ -10,7 +10,7 @@
 
     <q-drawer v-model="drawerLeft">
       <div class="col bg-primary q-py-sm">
-        <q-img fit height="34px " class="full-width" alt="logo ids" src="https://raw.githubusercontent.com/andreleecoder/ids/a47e0233892ef31de5a61b74541d4422a2fdaab3/src/assets/logo-ids-branco.svg" />
+        <q-img fit height="34px " class="full-width" alt="logo ids" src="~assets/logo-ids-branco.svg" />
       </div>
       <q-list>
         <LinksNavegacao v-for="link in rotaInicio" :key="link.title" v-bind="link" />

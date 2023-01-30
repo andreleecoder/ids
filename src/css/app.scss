@@ -1,6 +1,6 @@
 //background paginas
 .fundo-paginas{
-    background-image: url("src/assets/bg-pagina-inicio.png"); 
+    background-image: url("/src/assets/bg-pagina-inicio.png"); 
     background-color:rgba($color: #F5F9FF, $alpha: 0.8);
     background-size: cover;  
     background-blend-mode: lighten; 
@@ -28,6 +28,12 @@
      //ipv-900
      .ipv-900bg{background:#121314;}
      .ipv-900tx{color:#121314;}
+
+     //gradientes
+     .ipv-curv-peqbg{background: linear-gradient(270deg, #1379DF 0.01%, #5CADFF 100.01%);}
+     .ipv-curv-peqtx{color: linear-gradient(270deg, #1379DF 0.01%, #5CADFF 100.01%);}
+     .ipv-curv-gdbg{background:linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);}
+     .ipv-curv-gdtx{color:linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);}
     
     //est   
      .estbg{background:#F59019;}

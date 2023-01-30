@@ -38,10 +38,10 @@ let paletaAzul = paletaAzulLista
       <h5 class=" i-h5 q-mb-xs text-weight-bolder">Logo</h5>
       <div class="row items-center q-px-lg">
         <div class="col-5">
-          <img class="full-width" alt="logo vertical" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-illimitar-vertical-2023.png" />
+          <img class="full-width" alt="logo vertical" src="src/assets/logo-illimitar-vertical-2023.png" />
         </div>
         <div class="col">
-          <img class="full-width " alt="logo horizontal" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-illimtar-horizontal-2023.png" />
+          <img class="full-width " alt="logo horizontal" src="src/assets/logo-illimtar-horizontal-2023.png" />
         </div>
       </div>
     </div>
@@ -124,9 +124,7 @@ let paletaAzul = paletaAzulLista
         </q-card>
         <!--header fim-->
         <q-card flat class="row justify-between">
-          <q-card-section class="col text-center text-subtitle2">
-
-            <img class="full-width" alt="logo vertical" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-curva-grande.png" />
+          <q-card-section class=" ipv-curv-gdbg col text-center text-subtitle2">
 
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
@@ -141,10 +139,10 @@ let paletaAzul = paletaAzulLista
             <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
           </q-card-section>
         </q-card>
+        <q-separator class="ipv-900bg"></q-separator>
         <q-card flat class="row justify-between">
-          <q-card-section class="col text-center text-subtitle2">
 
-            <img class="full-width" alt="logo vertical" src="https://raw.githubusercontent.com/andreleecoder/ids/main/src/assets/logo-curva-peq.png" />
+          <q-card-section class="ipv-curv-peqbg col text-center text-subtitle2">
 
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
@@ -156,7 +154,7 @@ let paletaAzul = paletaAzulLista
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col-4 i-subtitle2 text-bold">
-            <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
+            <p style="word-break:break-all;">background: linear-gradient(270deg, #1379DF 0.01%, #5CADFF 100.01%);;</p>
           </q-card-section>
         </q-card>
       </q-card>
