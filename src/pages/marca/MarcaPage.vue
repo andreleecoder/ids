@@ -38,10 +38,12 @@ let paletaAzul = paletaAzulLista
       <h5 class=" i-h5 q-mb-xs text-weight-bolder">Logo</h5>
       <div class="row items-center q-px-lg">
         <div class="col-5">
-          <img class="full-width" alt="logo vertical" src="src/assets/logo-illimitar-vertical-2023.png" />
+          <img class="full-width" alt="logo vertical"
+            src="https://cloud.illimitar.com.br/apps/files_sharing/publicpreview/img-ids?file=/logo-illimitar-vertical-2023.png&fileId=963370&x=1920&y=1080&a=true" />
         </div>
         <div class="col">
-          <img class="full-width " alt="logo horizontal" src="src/assets/logo-illimtar-horizontal-2023.png" />
+          <img class="full-width " alt="logo horizontal"
+            src="https://cloud.illimitar.com.br/apps/files_sharing/publicpreview/img-ids?file=/logo-illimtar-horizontal-2023.png&fileId=963368&x=1920&y=1080&a=true" />
         </div>
       </div>
     </div>
