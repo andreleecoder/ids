@@ -21,7 +21,7 @@ const listaCardVantagens = ref(
     },
     {
       titulo: "Melhor Experiência",
-      conteudo: "Ter padrões claros, consistentes e efetivos traz benefícios também para os nossos usuários, que vão ter mais facilidade no aprendizado e utilização dos nossos produtos. Tornar a experiência de uso da Linx Impulse Suite única e excelente é nosso objetivo final.",
+      conteudo: "Ter padrões claros, consistentes e efetivos traz benefícios também para os nossos usuários, que vão ter mais facilidade no aprendizado e utilização dos nossos produtos.",
     },
 
   ])
