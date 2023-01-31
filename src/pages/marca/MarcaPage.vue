@@ -2,7 +2,8 @@
 
 import { ref } from 'vue';
 import PaletaCores from 'src/components/Cores/PaletaCores.vue';
-
+import { Notify } from 'quasar'
+import { copyToClipboard } from 'quasar'
 //dados das paletas de cor
 const paletaAzulLista = ref([
   {
@@ -25,7 +26,34 @@ const paletaAzulLista = ref([
 ])
 let paletaAzul = paletaAzulLista
 
+const getCssG = () => {
+  let curvaG = document.getElementById("curvaG")
+  copyToClipboard(curvaG.textContent)
+    .then(() => {
+      Notify.create({
+        color: 'positive',
+        message: 'copiado com sucesso'
+      })
 
+    })
+    .catch(() => {
+      // fail
+    })
+}
+const getCssP = () => {
+  let curvaP = document.getElementById("curvaP")
+  copyToClipboard(curvaP.textContent)
+    .then(() => {
+      Notify.create({
+        color: 'positive',
+        message: 'copiado com sucesso'
+      })
+
+    })
+    .catch(() => {
+      // fail
+    })
+}
 
 </script>
 <template>
@@ -78,8 +106,8 @@ let paletaAzul = paletaAzulLista
             Bold
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 ">
-            <q-btn class="text-bold" target="_blank" href="https://cloud.illimitar.com.br/s/fontes" flat color="primary"
-              label="Fontes illimitar"></q-btn>
+            <q-btn class=" text-bold" target="_blank" href="https://cloud.illimitar.com.br/s/fontes" flat
+              color="primary" label="Fontes illimitar"></q-btn>
           </q-card-section>
         </q-card>
         <!--info fim-->
@@ -142,7 +170,9 @@ let paletaAzul = paletaAzulLista
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col-4  i-subtitle2 text-bold">
-            <p style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF 97.94%);</p>
+            <q-btn flat label="copiar" class="absolute-bottom-right" @click="getCssG()" />
+            <p id="curvaG" style="word-break:break-all;">background: linear-gradient(82.61deg, #5C9DFF 3.18%, #1363DF
+              97.94%);</p>
           </q-card-section>
         </q-card>
         <q-separator class="ipv-900bg"></q-separator>
@@ -160,7 +190,10 @@ let paletaAzul = paletaAzulLista
             <p>210 64 100</p>
           </q-card-section>
           <q-card-section class="col-4 i-subtitle2 text-bold">
-            <p style="word-break:break-all;">background: linear-gradient(270deg, #1379DF 0.01%, #5CADFF 100.01%);;</p>
+            <q-btn flat label="copiar" class="absolute-bottom-right" @click="getCssP()" />
+
+            <p id="curvaP" style="word-break:break-all;">background: linear-gradient(270deg, #1379DF 0.01%, #5CADFF
+              100.01%);</p>
           </q-card-section>
         </q-card>
       </q-card>
