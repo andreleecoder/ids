@@ -2,6 +2,7 @@
 
 import { ref } from 'vue';
 import PaletaCores from 'src/components/Cores/PaletaCores.vue';
+
 //dados das paletas de cor
 const paletaAzulLista = ref([
   {
@@ -24,14 +25,17 @@ const paletaAzulLista = ref([
 ])
 let paletaAzul = paletaAzulLista
 
+
+
 </script>
 <template>
   <q-page class="fundo-paginas q-pb-lg q-px-lg column flex-start">
     <div class=" q-pb-sm full-width justify-between row ">
       <h4 class="text-weight-bolder">Manual da Marca</h4>
-      <q-btn class="self-center" style="height:50px;" target="_blank"
-        href="https://www.figma.com/file/FHHT480KlTdFbVkSmfHTez/identidade-visual-illimitar?node-id=75%3A384&t=0Sbt3TzSxuIMfTma-1"
-        rounded color="primary" label="Acessar biblioteca no figma"></q-btn>
+
+
+      <q-btn class="self-center" style="height:50px;" rounded icon="download" target="blank"
+        label="Baixar o PDF do manual" color="primary" href="https://cloud.illimitar.com.br/s/manual-marca-illimitar" />
     </div>
     <!--logo-->
     <div class=" full-width justify-between column ">
