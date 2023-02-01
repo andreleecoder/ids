@@ -5,29 +5,33 @@
     background-size: cover;  
     background-blend-mode: lighten; 
 }
+.bg-toolbar{
+    background: rgba(245, 249, 255, 0.6);
+    backdrop-filter: blur(4px);
+}
 
 
     //ipv   
-    .ipvbg{background:#1379DF;}
-    .ipvtx{color:#1379DF;}
+    .ipvbg{background:$ipv;}
+    .ipvtx{color:$ipv;}
     //ipv100
-    .ipv-100bg{background:#F5F9FF;}
-    .ipv-100tx{color:#F5F9FF;}
+    .ipv-100bg{background:$ipv-100;}
+    .ipv-100tx{color:$ipv-100;}
     //ipv200
-    .ipv-200bg{background:#C9E4FF;}
-    .ipv-200tx{color:#C9E4FF;}
+    .ipv-200bg{background:$ipv-200;}
+    .ipv-200tx{color:$ipv-200;}
     //ipv400
-    .ipv-400bg{background:#5CADFF;}
-    .ipv-400tx{color:#5CADFF;}
+    .ipv-400bg{background:$ipv-400;}
+    .ipv-400tx{color:$ipv-400;}
     //ipv600
-    .ipv-600bg{background:#0060BF;}
-    .ipv-600tx{color:#0060BF;}
+    .ipv-600bg{background:$ipv-600;}
+    .ipv-600tx{color:$ipv-600;}
     //ipv-800
-    .ipv-800bg{background:#0F5499;}
-    .ipv-800tx{color:#0F5499;}
+    .ipv-800bg{background:$ipv-800;}
+    .ipv-800tx{color:$ipv-800;}
      //ipv-900
-     .ipv-900bg{background:#121314;}
-     .ipv-900tx{color:#121314;}
+     .ipv-900bg{background:$ipv-900;}
+     .ipv-900tx{color:$ipv-900;}
 
      //gradientes
      .ipv-curv-peqbg{background: linear-gradient(270deg, #1379DF 0.01%, #5CADFF 100.01%);}
@@ -189,149 +193,4 @@
     line-height: 2rem;
     letter-spacing: .16667em;
     }
-     //variaveis de fontes
-     @font-face {
-        font-family: 'Aller';
-        src: url('Aller-Bold.woff2') format('woff2'),
-            url('Aller-Bold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Aller Display';
-        src: url('AllerDisplay.woff2') format('woff2'),
-            url('AllerDisplay.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Aller';
-        src: url('src/assets/fontes/Aller-BoldItalic.woff2') format('woff2'),
-            url('src/assets/fontes/Aller-BoldItalic.woff') format('woff');
-        font-weight: bold;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Aller';
-        src: url('src/assets/fontes/Aller.woff2') format('woff2'),
-            url('src/assets/fontes/Aller.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Aller';
-        src: url('src/assets/fontes/Aller-LightItalic.woff2') format('woff2'),
-            url('src/assets/fontes/Aller-LightItalic.woff') format('woff');
-        font-weight: 300;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Aller';
-        src: url('src/assets/fontes/Aller-Italic.woff2') format('woff2'),
-            url('src/assets/fontes/Aller-Italic.woff') format('woff');
-        font-weight: normal;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Aller';
-        src: url('src/assets/fontes/Aller-Light.woff2') format('woff2'),
-            url('src/assets/fontes/Aller-Light.woff') format('woff');
-        font-weight: 300;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-BlackItalic.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-BlackItalic.woff') format('woff');
-        font-weight: 900;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-Bold.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-Bold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-HeavyItalic.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-HeavyItalic.woff') format('woff');
-        font-weight: 900;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-LightItalic.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-LightItalic.woff') format('woff');
-        font-weight: 200;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-Regular.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-Medium.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-Medium.woff') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-UltralightItalic.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-UltralightItalic.woff') format('woff');
-        font-weight: 200;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-ThinItalic.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-ThinItalic.woff') format('woff');
-        font-weight: 100;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'SF Pro Display';
-        src: url('src/assets/fontes/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
-            url('src/assets/fontes/SFProDisplay-SemiboldItalic.woff') format('woff');
-        font-weight: 600;
-        font-style: italic;
-        font-display: swap;
-    }
-    
-    
+     

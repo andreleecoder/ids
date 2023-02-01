@@ -21,6 +21,163 @@ $dark: #121314;
 
 $positive: #21ba45;
 $negative: #c10015;
-$info: #0060bf;
 $warning: #f2c037;
+$info: #0060bf;
+
+//Paleta do illimitar
+//ipv - illimitar | produto | venda : Aplicada em materiais, sistemas e recursos que estejam relacionados à marca da empresa e à gestão de produtos e vendas.
+$ipv:#1379DF;
+$ipv-100:#F5F9FF;
+$ipv-200:#C9E4FF;
+$ipv-400:#5CADFF;
+$ipv-600:#0060BF;
+$ipv-800:#0F5499;
+$ipv-900:#121314;
+
+
+
+//variaveis de fontes
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller-Bold.woff2') format('woff2'),
+        url('Aller-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller Display';
+    src: url('AllerDisplay.woff2') format('woff2'),
+        url('AllerDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('src/assets/fontes/Aller-BoldItalic.woff2') format('woff2'),
+        url('src/assets/fontes/Aller-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('src/assets/fontes/Aller.woff2') format('woff2'),
+        url('src/assets/fontes/Aller.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('src/assets/fontes/Aller-LightItalic.woff2') format('woff2'),
+        url('src/assets/fontes/Aller-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('src/assets/fontes/Aller-Italic.woff2') format('woff2'),
+        url('src/assets/fontes/Aller-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('src/assets/fontes/Aller-Light.woff2') format('woff2'),
+        url('src/assets/fontes/Aller-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-BlackItalic.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-Bold.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-HeavyItalic.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-LightItalic.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-LightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-Regular.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-Medium.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-UltralightItalic.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-UltralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-ThinItalic.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('src/assets/fontes/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+        url('src/assets/fontes/SFProDisplay-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
 

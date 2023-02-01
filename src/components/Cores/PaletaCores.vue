@@ -1,4 +1,3 @@
-
 <script setup >
 
 
@@ -35,8 +34,6 @@ defineProps(
 
 
 </script>
-
-
 <template>
   <q-card flat>
     <q-separator :class="`${separator}`"></q-separator>

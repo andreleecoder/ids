@@ -252,7 +252,6 @@ let paletaVerdeShc = paletaVerdeShcLista
 
 
 </script>
-
 <template >
   <q-page class=" fundo-paginas q-pa-lg column flex-center">
 
@@ -365,3 +364,4 @@ let paletaVerdeShc = paletaVerdeShcLista
     <!--paleta verde shc fim-->
   </q-page>
 </template>
+
