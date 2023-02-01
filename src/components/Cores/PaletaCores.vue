@@ -31,8 +31,6 @@ defineProps(
   }
 )
 
-
-
 </script>
 <template>
   <q-card flat>

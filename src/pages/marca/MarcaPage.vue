@@ -166,8 +166,8 @@ const getCssP = () => {
             <p>#5CADFF</p>
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 text-bold">
-            <p>19 121 223</p>
-            <p>210 64 100</p>
+            <p class="q-ma-none">19 121 223</p>
+            <p class="q-ma-none">210 64 100</p>
           </q-card-section>
           <q-card-section class="col-4  i-subtitle2 text-bold">
             <q-btn flat label="copiar" class="absolute-bottom-right" @click="getCssG()" />
