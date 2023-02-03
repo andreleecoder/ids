@@ -65,7 +65,7 @@ const getCssP = () => {
 
 
       <q-btn class="self-center" style="height:50px;" rounded icon="download" target="blank"
-        label="Baixar o PDF do manual" color="primary" href="https://cloud.illimitar.com.br/s/manual-marca-illimitar" />
+        label="Baixar o PDF do manual" color="primary" href="https://cloud.illimitar.com.br/s/rRwrjjP3n53yKD2" />
     </div>
     <!--logo-->
     <div class=" full-width justify-between column ">
@@ -108,7 +108,7 @@ const getCssP = () => {
             Bold
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 ">
-            <q-btn class=" text-bold" target="_blank" href="https://cloud.illimitar.com.br/s/rRwrjjP3n53yKD2" flat
+            <q-btn class=" text-bold" target="_blank" href="https://cloud.illimitar.com.br/s/fontes" flat
               color="primary" label="Fontes illimitar"></q-btn>
           </q-card-section>
         </q-card>
