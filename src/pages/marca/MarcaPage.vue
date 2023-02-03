@@ -65,7 +65,7 @@ const getCssP = () => {
 
 
       <q-btn class="self-center" style="height:50px;" rounded icon="download" target="blank"
-        label="Baixar o PDF do manual" color="primary" href="https://cloud.illimitar.com.br/s/rRwrjjP3n53yKD2" />
+        label="Baixar o PDF do manual" color="primary" href="https://cloud.illimitar.com.br/s/2DJ3Eq6rSn3B8Dg" />
     </div>
     <!--logo-->
     <div class=" full-width justify-between column ">
