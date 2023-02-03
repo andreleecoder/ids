@@ -32,7 +32,8 @@ const getCssG = () => {
     .then(() => {
       Notify.create({
         color: 'positive',
-        message: 'copiado com sucesso'
+        message: 'copiado com sucesso',
+        timeout: 500
       })
 
     })
@@ -46,7 +47,8 @@ const getCssP = () => {
     .then(() => {
       Notify.create({
         color: 'positive',
-        message: 'copiado com sucesso'
+        message: 'copiado com sucesso',
+        timeout: 500
       })
 
     })
@@ -106,7 +108,7 @@ const getCssP = () => {
             Bold
           </q-card-section>
           <q-card-section class="col text-center text-subtitle2 ">
-            <q-btn class=" text-bold" target="_blank" href="https://cloud.illimitar.com.br/s/fontes" flat
+            <q-btn class=" text-bold" target="_blank" href="https://cloud.illimitar.com.br/s/rRwrjjP3n53yKD2" flat
               color="primary" label="Fontes illimitar"></q-btn>
           </q-card-section>
         </q-card>

@@ -258,7 +258,7 @@ let paletaVerdeShc = paletaVerdeShcLista
     <div class=" q-pb-md full-width justify-between row">
       <h4 class=" i-h4 text-weight-bolder">Paletas de Cor</h4>
       <q-btn class="self-center" style="height:50px;" target="_blank"
-        href="https://cloud.illimitar.com.br/s/paleta-cores" icon="download" rounded color="primary"
+        href="https://cloud.illimitar.com.br/s/5zw6NDJD9AZLCkg" icon="download" rounded color="primary"
         label="Acessar biblioteca no figma"></q-btn>
     </div>
     <!--paleta azul ipv inicio-->
