@@ -1,21 +1,11 @@
 <template>
-  <div
-    class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center"
-  >
+  <div class="fullscreen fundo-paginas text-white text-center q-pa-md flex flex-center">
     <div>
-      <div style="font-size: 30vh">404</div>
+      <div class="ipvtx" style="font-size: 30vh">404</div>
 
-      <div class="text-h2" style="opacity: 0.4">Oops. Nothing here...</div>
+      <div class="text-h2 ipv-100tx">Desculpe, algo deu errado</div>
 
-      <q-btn
-        class="q-mt-xl"
-        color="white"
-        text-color="blue"
-        unelevated
-        to="/"
-        label="Go Home"
-        no-caps
-      />
+      <q-btn class="q-mt-xl" color="primary" unelevated to="inicio" label="Voltar pro inicio" no-caps />
     </div>
   </div>
 </template>
