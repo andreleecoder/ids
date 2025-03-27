@@ -1,31 +1,46 @@
 {
-  "name": "stackblitz-quasar-v2-vite",
+  "name": "design-system",
   "version": "0.0.1",
-  "description": "A Quasar CLI with Vite starter project.",
+  "description": "Design system da empresa illimitar",
+  "productName": "Design-system",
+  "author": "andrelee <andrelee@illimitar.com.br>",
   "private": true,
   "scripts": {
-    "dev": "quasar dev",
-    "build": "quasar build",
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build":"quasar build"
   },
   "dependencies": {
-    "@quasar/extras": "^1.15.4",
-    "quasar": "^2.9.2",
-    "vue": "^3.2.40",
-    "vue-router": "^4.1.5"
+    "@quasar/extras": "^1.0.0",
+    "core-js": "^3.6.5",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
   },
   "devDependencies": {
-    "@quasar/app-vite": "^1.1.2",
-    "autoprefixer": "^10.4.2",
+    "@babel/eslint-parser": "^7.13.14",
     "eslint": "^8.10.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-webpack-plugin": "^3.1.1",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-vue": "^8.5.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "@quasar/app-webpack": "^3.0.0"
   },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
   "engines": {
-    "node": "^18 || ^16 || ^14.19",
+    "node": ">= 12.22.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   }
